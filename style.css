@@ -1,0 +1,57 @@
+body
+{
+    background-image: linear-gradient(to right, dodgerblue,rgb(86, 0, 162));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper
+{
+    background-color: white;
+    width: 420px;
+    height:500px ;  
+    border-radius:10px ;     
+}
+.wrapper header
+{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px ;
+    color:#050505;
+    font-weight: bold;
+}
+.profilePic
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 10px 10px;
+}
+.name
+{
+    font-size: 14px;
+    width:100px;
+    float:right;
+    margin:-67px 250px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px; 
+    color:#050505;
+}
+.privacy
+{
+    font-size: 12px;
+    width:80px;
+    float:right;
+    margin:-35px 270px;
+    padding:3px 1px 3px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    background-color: #e4e6eb;
+}
+i
+{   
+    padding-right:4px;
+    font-size:10px;
+}
